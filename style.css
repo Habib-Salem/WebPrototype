@@ -29,7 +29,7 @@ a {
   color: white;
 }
 #container {
-  background-image: url("images/alton-01.png");
+  background-image: url("images/redwave.png");
   background-size: cover;
   background-repeat: no-repeat;
   width:100%;
@@ -109,9 +109,6 @@ border: 0;
   .contacttext {
     margin-left: 10px;
     font-size: 50px;
-  }
-  #container {
-  background: none;
   }
    #container2 {
   height:220vh;
