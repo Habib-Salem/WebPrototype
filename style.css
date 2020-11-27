@@ -81,8 +81,8 @@ border: 0;
 }
 
 .social {
-  width: 250px;
-  height:250px;
+  width: 200px;
+  height:200px;
   margin-left:170px;
   display: inline-block;
 }
@@ -92,6 +92,62 @@ border: 0;
   color: white;
   font-size: 35px;
   margin-left:50px;
+}
+
+/* Blooddetail.html */
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.4fr 2.2fr 0.4fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". text-goes-here ."
+    ". text-goes-here ."
+    ". text-goes-here .";
+}
+
+.text-goes-here { grid-area: text-goes-here; }
+
+h2 {
+  margin-top: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ol {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.people {
+  width: 260px;
+  height:550px;
+  display: inline-block;
+  margin-right: 70px;
+
+}
+
+#blood {
+  width:800px;
+  height:150px;
+  margin-left: 110px;
 }
 
 @media screen and (max-width: 768px){
@@ -112,5 +168,10 @@ border: 0;
   }
    #container2 {
   height:220vh;
+  }
+  #blood {
+    width:300px;
+    height:60px;
+    margin-left:0px;
   }
 }
