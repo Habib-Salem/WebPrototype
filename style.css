@@ -38,7 +38,7 @@ a {
 #container2 {
   background: #2b2d42;
   width:100%;
-  height:110vh;
+  height:75vh;
 }
 #background {
 width:350px;
@@ -74,16 +74,20 @@ border: 0;
 }
 
 .contact {
-  width: 350px;
-  height:350px;
+  width: 320px;
+  height:100px;
   margin-left:100px;
+  margin-top:40px;
+  margin-bottom:40px;
   display: inline-block;
 }
 
 .social {
-  width: 200px;
-  height:200px;
-  margin-left:170px;
+  width: 150px;
+  height:150px;
+  margin-top:40px;
+  margin-bottom:40px;
+  margin-left:110px;
   display: inline-block;
 }
 
@@ -148,6 +152,63 @@ ol {
   width:800px;
   height:150px;
   margin-left: 110px;
+}
+
+blockquote {
+	width: 80%;
+	margin: 2em auto;
+	font-style: italic;
+	padding: 1em 2em;
+	border-left: 8px solid #78C0A8;
+	font-size: 1em;
+	line-height: 1.4;
+	position: relative;
+	background: #ededed;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#critera {
+  width:100%;
+}
+
+#box {
+  width: 85%;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 20px;
+}
+label {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#button1 {
+border: 0;
+  background: #2b2d42;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #1c1d2b;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  margin: 0;
+  outline: 0;
+  transition: all .1s linear;
+  padding: 1rem 4rem;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#button1:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
 }
 
 @media screen and (max-width: 768px){

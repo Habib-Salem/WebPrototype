@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <div class="topnav">
+      <a href="index.html"><href="#index.html" class='navIcon'><img src="images/crosslogo.svg" alt="ACRL Logo" width="50" height="25"></a>
+      <a href="blooddetail.html">Donate</a>
+      <a href="centres.html">Centres Near Me</a>
+    </div>
+    <div class="grid-container">
+  <div class="text-goes-here">
+  <h2>The eligibility criteria</h2>
+  <p> There are various criteria you must meet to donate blood,<strong> hence most people are able to give blood if they:</strong></p><br>
+  <ul>
+    <li>Feel fit and healthy</li>
+    <li>Are aged between 18 and 75</li>
+    <li>Weigh over 50KG</li>
+  </ul>
+  <br><p><strong>You will not be able to give blood if you:</strong></p><br>
+  <ul>
+    <li>Are on certain medications or antibiotics</li>
+    <li>Have a cold or are feeling unwell in any way</li>
+    <li>Have certain medical conditions</li>
+    <li>Changed medications</li>
+    <li>Recently had surgery</li>
+    <li>Have had recent dental treatment</li>
+    <li>Recently travelled</li>
+    <li>Had a piercing</li>
+    <li>Have ever had a serious heart condition</li>
+  </ul>
+  <br><p><strong>You will not be able to give blood if you</strong></p><br>
+  <ul>
+    <li>Have had a tattoo in the past four months. But so long as your tattoo was done on licensed or regulated premises in Australia (like a commercial tattoo parlour or a cosmetic clinic) and is healing well, you can donate plasma.</li>
+    <li>Have visited or lived in the UK for a cumulative total of six months or more between 1980 and 1996</li>
+    <li>Have engaged in male to male sexual activity or other specified at risk sexual activity in the past 12 months</li>
+    <li>Have recently been pregnant or given birth</li>
+    <li>Have ever had a serious blood disorder or disease</li>
+    <li>Have 'used drugs' by injection or been injected with drugs not prescribed by a doctor or dentist in the past 5 years.</li>
+  </ul><br>
+  <img id = "blood" src="images/blooddrops-01.png" alt="ACRL Logo Large">
+  <h3>Take the eligiblity test now</h3>
+  <div id="box">
+    <form>
+  <h3>Eligibility Form</h3>
+  <p>Are you within the age range between 18-75?</p><br>
+  <input type="radio" id="Yes" name="age" value="yes">
+  <label for="male">Yes</label><br>
+  <input type="radio" id="No" name="age" value="no">
+  <label for="female">No</label><br>
+  <br>
+  <p>Have you had a tattoo in the last four months?</p><br>
+  <input type="radio" id="Yes" name="tattoo" value="yes">
+  <label for="male">Yes</label><br>
+  <input type="radio" id="No" name="tattoo" value="no">
+  <label for="female">No</label><br>
+  <br>
+  <p>Are you pregnant or have just given birth?</p><br>
+  <input type="radio" id="Yes" name="birth" value="yes">
+  <label for="male">Yes</label><br>
+  <input type="radio" id="No" name="birth" value="no">
+  <label for="female">No</label><br>
+  <br>
+  <p>Do you have a heart condition?</p><br>
+  <input type="radio" id="Yes" name="heart" value="yes">
+  <label for="male">Yes</label><br>
+  <input type="radio" id="No" name="heart" value="no">
+  <label for="female">No</label><br>
+  <br>
+  <p>Are you low in iron?</p><br>
+  <input type="radio" id="Yes" name="iron" value="yes">
+  <label for="male">Yes</label><br>
+  <input type="radio" id="No" name="iron" value="no">
+  <label for="female">No</label><br>
+  <br>
+  <p>Have you engaged in 'at risk' sexual activity in the past 12 months?</p><br>
+  <input type="radio" id="Yes" name="sex" value="yes">
+  <label for="male">Yes</label><br>
+  <input type="radio" id="No" name="sex" value="no">
+  <label for="female">No</label><br>
+  <br>
+  <p>Have you been overseas in the past four months? (before your donation)</p><br>
+  <input type="radio" id="Yes" name="overseas" value="yes">
+  <label for="male">Yes</label><br>
+  <input type="radio" id="No" name="overseas" value="no">
+  <label for="female">No</label><br>
+  <br>
+  <button id = "button1" type="button" ">Check Eligibility</button>
+  <br><br><p><strong>(Wizard of Oz Prototype</strong> Since a form like this needs Javascript, it cannot be fully functional. Hence, once the user clicks the "check eligibility" button, a popup will appear of which will inform the user on their blood donation eligibility as dependent on the user input from this form. This output of eligibility can either be <strong>Eligible or Ineligible.)</strong></p>
+    </form>
+    </div>
+    <button id = "button" type="button" ">Check Eligibility</button>
+  </div>
+</div>
