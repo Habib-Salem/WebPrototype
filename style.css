@@ -211,6 +211,34 @@ border: 0;
   transform: translateY(3px);
 }
 
+#button2 {
+border: 0;
+  background: #2b2d42;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #1c1d2b;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  margin: 0;
+  outline: 0;
+  transition: all .1s linear;
+  padding: 1rem 4rem;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left:80px;
+}
+
+#button2:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+#button2:first-of-type {
+  background: red;
+  box-shadow: 0 5px 0 rgb(117, 2, 2);
+}
+
 @media screen and (max-width: 768px){
   .contact {
   width: 300px;
