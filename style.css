@@ -74,20 +74,20 @@ border: 0;
 }
 
 .contact {
-  width: 320px;
-  height:100px;
-  margin-left:100px;
-  margin-top:40px;
-  margin-bottom:40px;
+  width: 20em;
+  height:7em;
+  margin-left:4em;
+  margin-top:2em;
+  margin-bottom:2em;
   display: inline-block;
 }
 
 .social {
-  width: 100px;
-  height:100px;
-  margin-top:40px;
-  margin-bottom:40px;
-  margin-left:110px;
+  width: 8em;
+  height:8em;
+  margin-top:2em;
+  margin-bottom:2em;
+  margin-left:4em;
   display: inline-block;
 }
 
@@ -144,14 +144,12 @@ ol {
   width: 260px;
   height:550px;
   display: inline-block;
-  margin-right: 70px;
-
+  margin-left: 70px;
 }
 
 #blood {
   width:800px;
   height:150px;
-  margin-left: 110px;
 }
 
 blockquote {
@@ -226,7 +224,7 @@ border: 0;
   padding: 1rem 4rem;
   display: inline-block;
   margin-top: 15px;
-  margin-left:80px;
+  margin-left:0%;
 }
 
 #button2:active {
@@ -251,28 +249,39 @@ border: 0;
   width:10%;
 }
 
+.contactform {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
 @media screen and (max-width: 768px){
   .contact {
-  width: 300px;
-  height: 200px;
+  width: 160px;
+  height: 50px;
   margin-left: 10px;
   }
    .social {
-  width: 300px;
-  height: 200px;
+  width: 80px;
+  height: 80px;
   margin-top: 50px;
   margin-left: 10px;
   }
   .contacttext {
     margin-left: 10px;
-    font-size: 50px;
+    font-size: 35px;
   }
    #container2 {
-  height:220vh;
+  height:80vh;
   }
   #blood {
     width:300px;
     height:60px;
     margin-left:0px;
+  }
+  .people {
+    margin-left:1px;
+  }
+  #box {
+    margin:0px;
   }
 }
