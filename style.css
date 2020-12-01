@@ -4,11 +4,11 @@
 a {
   color: white;
 }
-.topnav {
+.topnav { 
   background-color: rgb(237, 242, 245);
   overflow: hidden;
 }
-
+/* Recieved styling and code inspiration from https://www.w3schools.com/css/css_navbar.asp */
 .topnav a {
   float: left;
   color: black;
@@ -24,10 +24,6 @@ a {
   color: black;
 }
 
-.topnav a.active {
-  background-color: rgb(198,42,51);
-  color: white;
-}
 #container {
   background-image: url("images/redwave.png");
   background-size: cover;
@@ -48,7 +44,7 @@ margin-top: 40px;
 margin-left: auto;
 margin-right: auto;
 }
-
+/* Recieved animation tips and coding inspiration from https://learn.shayhowe.com/advanced-html-css/transitions-animations/ */
 #button {
 border: 0;
   background: #2b2d42;
@@ -97,8 +93,7 @@ border: 0;
   font-size: 35px;
   margin-left:50px;
 }
-
-/* Blooddetail.html */
+/* Used https://grid.layoutit.com/ to create the grid */
 .grid-container {
   display: grid;
   grid-template-columns: 0.4fr 2.2fr 0.4fr;
@@ -157,7 +152,7 @@ blockquote {
 	margin: 2em auto;
 	font-style: italic;
 	padding: 1em 2em;
-	border-left: 8px solid #78C0A8;
+	border-left: 8px solid red;
 	font-size: 1em;
 	line-height: 1.4;
 	position: relative;
@@ -224,7 +219,7 @@ border: 0;
   padding: 1rem 4rem;
   display: inline-block;
   margin-top: 15px;
-  margin-left:0%;
+  margin-left:8%;
 }
 
 #button2:active {
@@ -237,8 +232,7 @@ border: 0;
   box-shadow: 0 5px 0 rgb(117, 2, 2);
 }
 
-/* Eligible Form */
-  input {
+input {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -254,7 +248,7 @@ border: 0;
   margin-bottom:10px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){ /* Media query for mainly mobile devices */
   .contact {
   width: 160px;
   height: 50px;
